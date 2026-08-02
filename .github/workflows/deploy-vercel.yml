@@ -1,0 +1,32 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm ci --legacy-peer-deps
+
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npx vercel --prod --token "$VERCEL_TOKEN" --confirm
+
+# Notes:
+# - Add a repository secret named `VERCEL_TOKEN` with a Vercel Personal Token.
+# - Optionally add `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` as secrets and pass them
+#   to the `npx vercel` command with `--org $VERCEL_ORG_ID --project $VERCEL_PROJECT_ID`.
