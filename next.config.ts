@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? `/${REPO_NAME}/` : '',
   trailingSlash: true,
   images: {
+    // Disable Next.js image optimization for static export on GitHub Pages
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
