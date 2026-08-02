@@ -28,21 +28,14 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID || secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID || secrets.VERCEL_PROJECT_ID }}
         run: |
           set -e
-          EXTRA_ARGS=""
-          if [ -n "$VERCEL_ORG_ID" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --org $VERCEL_ORG_ID"
-          fi
-          if [ -n "$VERCEL_PROJECT_ID" ]; then
-            EXTRA_ARGS="$EXTRA_ARGS --project $VERCEL_PROJECT_ID"
-          fi
-          echo "Running: npx vercel --prod --token [redacted] --confirm $EXTRA_ARGS"
-          npx vercel --prod --token "$VERCEL_TOKEN" --confirm $EXTRA_ARGS
+          echo "Running: npx vercel deploy --prod --yes --token [redacted]"
+          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN"
 
 # Notes:
 # - Add a repository secret named `VERCEL_TOKEN` with a Vercel Personal Token.
-# - Optionally add `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` as secrets and pass them
-#   to the `npx vercel` command with `--org $VERCEL_ORG_ID --project $VERCEL_PROJECT_ID`.
+# - Set `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` as repository variables or secrets
+#   to make the deployment target explicit in CI.
