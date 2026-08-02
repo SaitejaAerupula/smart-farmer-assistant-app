@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[153,["455","static/chunks/455-1344cd2e4cdb9398.js","242","static/chunks/242-22fa13695d068f8d.js","809","static/chunks/809-5f92d1c92825b0e4.js","177","static/chunks/app/layout-fe8b2c7a2b158480.js"],"default"]
+3:I[9243,["455","static/chunks/455-1344cd2e4cdb9398.js","242","static/chunks/242-22fa13695d068f8d.js","809","static/chunks/809-5f92d1c92825b0e4.js","177","static/chunks/app/layout-fe8b2c7a2b158480.js"],""]
+4:I[7040,["455","static/chunks/455-1344cd2e4cdb9398.js","242","static/chunks/242-22fa13695d068f8d.js","809","static/chunks/809-5f92d1c92825b0e4.js","177","static/chunks/app/layout-fe8b2c7a2b158480.js"],"default"]
+5:I[7555,[],""]
+6:I[1295,[],""]
+7:I[2344,["455","static/chunks/455-1344cd2e4cdb9398.js","242","static/chunks/242-22fa13695d068f8d.js","809","static/chunks/809-5f92d1c92825b0e4.js","177","static/chunks/app/layout-fe8b2c7a2b158480.js"],"default"]
+8:I[894,[],"ClientPageRoot"]
+9:I[751,["455","static/chunks/455-1344cd2e4cdb9398.js","503","static/chunks/503-5d012fc0aa201b12.js","132","static/chunks/app/market-prices/page-5cb8ed9e5ec4ce41.js"],"default"]
+c:I[9665,[],"OutletBoundary"]
+f:I[4911,[],"AsyncMetadataOutlet"]
+11:I[9665,[],"ViewportBoundary"]
+13:I[9665,[],"MetadataBoundary"]
+15:I[8385,["219","static/chunks/app/global-error-6441114076f7ce3e.js"],"default"]
+:HL["/smart-farmer-assistant-app/_next/static/css/968de5499edfecf4.css","style"]
+0:{"P":null,"b":"3QCy_DXUylWdIvg6Qnv98","p":"/smart-farmer-assistant-app","c":["","market-prices",""],"i":false,"f":[[["",{"children":["market-prices",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/smart-farmer-assistant-app/_next/static/css/968de5499edfecf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"src":"https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/scripts//route-messenger.js","strategy":"afterInteractive","data-target-origin":"*","data-message-type":"ROUTE_CHANGE","data-include-search-params":"true","data-only-in-iframe":"true","data-debug":"true","data-custom-data":"{\"appName\": \"YourApp\", \"version\": \"1.0.0\", \"greeting\": \"hi\"}"}],["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]]}],{"children":["market-prices",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{"Component":"$9","searchParams":{},"params":{},"promises":["$@a","$@b"]}],null,["$","$Lc",null,{"children":["$Ld","$Le",["$","$Lf",null,{"promise":"$@10"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Yx1OzgJV1oKfFybMgba_Gv",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],["$","$L13",null,{"children":"$L14"}]]}],false]],"m":"$undefined","G":["$15",[]],"s":false,"S":true}
+16:"$Sreact.suspense"
+17:I[4911,[],"AsyncMetadata"]
+a:{}
+b:{}
+14:["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":["$","$L17",null,{"promise":"$@18"}]}]}]
+e:null
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:null
+10:{"metadata":[["$","title","0",{"children":"Smart Farmer Assistant"}],["$","meta","1",{"name":"description","content":"Make better decisions about crops, market prices, and pest control"}]],"error":null,"digest":"$undefined"}
+18:{"metadata":"$10:metadata","error":null,"digest":"$undefined"}
